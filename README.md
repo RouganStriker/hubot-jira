@@ -1,4 +1,4 @@
-# hubot-jira
+# hubot-jira-lc
 
 Will post messages when the status of an issue has changed.
 
