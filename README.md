@@ -1,29 +1,24 @@
-# hubot-gitlab-ci
+# hubot-jira
 
-See [`src/gitlab-ci.coffee`](src/gitlab-ci.coffee) for full documentation.
+Will post messages when the status of an issue has changed.
+
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-gitlab-ci --save`
+`npm install hubot-jira --save`
 
-Then add **hubot-gitlab-ci** to your `external-scripts.json`:
+Then add **hubot-jira** to your `external-scripts.json`:
 
 ```json
-["hubot-gitlab-ci"]
+["hubot-jira"]
 ```
 
 ## Sample Usage
 
-Add the following URL as a build web hook in GitLab:
+Add the following URL as a build web hook in JIRA:
 
 ```
-http://<ip>:<port>/gitlab-ci?targets=room1,room2
-```
-
-or to filter for a specific status:
-
-```
-http://<ip>:<port>/gitlab-ci?targets=room1&status=failed
+http://<ip>:<port>/jira?targets=room1,room2
 ```

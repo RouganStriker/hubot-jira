@@ -1,25 +1,36 @@
 {
-  "name": "hubot-gitlab-ci",
-  "description": "GitLab CI Web Hook for Hubot",
-  "version": "0.0.5",
-  "author": "Houssam Haidar <houssam@sdelements.com>",
+  "name": "hubot-jira",
+  "description": "JIRA Web Hook for Hubot",
+  "version": "0.0.1",
+  "author": "Kelvin <kchan@sdelements.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts","gitlab","gitlab-ci"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "jira"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sdelements/hubot-gitlab-ci.git"
+    "url": "git://github.com/rouganstriker/hubot-jira.git"
   },
-
   "bugs": {
-    "url": "https://github.com/sdelements/hubot-gitlab-ci/issues"
+    "url": "https://github.com/rouganstriker/hubot-jira/issues"
   },
-
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.2.6",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.2.0",
+    "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-lets-chat": "0.0.7",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.0"
   },
-
   "main": "index.coffee"
-
 }
