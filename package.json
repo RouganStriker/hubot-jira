@@ -1,5 +1,5 @@
 {
-  "name": "hubot-jira",
+  "name": "hubot-jira-lc",
   "description": "JIRA Web Hook for Hubot",
   "version": "0.0.1",
   "author": "Kelvin <kchan@sdelements.com>",
