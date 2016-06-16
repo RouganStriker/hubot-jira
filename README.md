@@ -7,12 +7,12 @@ Will post messages when the status of an issue has changed.
 
 In hubot project repo, run:
 
-`npm install hubot-jira --save`
+`npm install hubot-jira-lc --save`
 
-Then add **hubot-jira** to your `external-scripts.json`:
+Then add **hubot-jira-lc** to your `external-scripts.json`:
 
 ```json
-["hubot-jira"]
+["hubot-jira-lc"]
 ```
 
 ## Sample Usage
